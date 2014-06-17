@@ -186,7 +186,7 @@ function handleStatusChange(response) {
 }
 
 function promptLogin() {
-  FB.login(null, {scope: 'public_profile,email,user_friends,publish_actions,user_place_visits'});
+  FB.login(null, {scope: 'public_profile,email,user_friends,publish_actions'});
 }
 
 function updateUserInfo(response) {
