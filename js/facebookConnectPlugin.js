@@ -1,4 +1,4 @@
-cordova.define("com.phonegap.plugins.facebookconnect.FacebookConnectPlugin", function(require, exports, module) {/*
+/*
  * @author Ally Ogilvie
  * @copyright Wizcorp Inc. [ Incorporated Wizards ] 2014
  * @file - facebookConnectPlugin.js
@@ -38,4 +38,3 @@ var facebookConnectPlugin = {
 };
 
 module.exports = facebookConnectPlugin;
-});
